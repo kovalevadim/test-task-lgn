@@ -1,0 +1,38 @@
+.banner-actions {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+
+	.app-access {
+		display: flex;
+		.share {
+			margin-left: auto;
+		}
+		.schedule {
+			margin-left: 1rem;
+		}
+		.share, .schedule {
+			display: flex;
+			align-items: center;
+			padding: 0;
+			color: $white;
+			svg {
+				margin-right: 0.25rem;
+			}
+			&:hover {
+				text-decoration: none;
+				color: darken($white, 10%);
+				color: $primary;
+			}
+		}
+	}
+
+	.app-save {
+		margin-top: auto;
+
+		.save {
+			margin-left: 0.5rem;
+		}
+	}
+
+}

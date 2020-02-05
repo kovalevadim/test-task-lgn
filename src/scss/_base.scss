@@ -1,0 +1,19 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: $body;
+  background-color: $bg-secondary;
+}
+.section-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #515151;
+}
+.section-subtitle {
+  font-size: 13px;
+  color: $secondary;
+}
+
+.svg-inline--fa {
+  width: 16px;
+}

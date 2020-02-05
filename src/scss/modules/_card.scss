@@ -1,0 +1,23 @@
+.card {
+	.card-header {
+		display: flex;
+		// justify-content: space-between;
+		align-items: center;
+		padding: 0.75rem;
+		background-color: transparent;
+	}
+	.card-title {
+		margin-bottom: 0;
+		margin-right: auto;
+		font-size: 0.875rem;
+		font-weight: 600;
+	}
+	.card-actions {
+		margin-left: auto;
+		.btn {
+			svg {
+				max-height: 0.875rem;
+			}
+		}
+	}
+}

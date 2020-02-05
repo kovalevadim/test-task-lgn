@@ -1,0 +1,25 @@
+.banner-content {
+	display: flex;
+	margin-right: auto;
+
+	.app-info {
+		display: flex;
+		flex-direction: column;
+		padding-left: 0.75rem;
+		font-family: 'Myriad Pro';
+		.title {
+			margin-bottom: 0;
+			font-size: 1.5rem;
+			font-weight: $fw-regular;
+		}
+		.subtitle, .period {
+			font-size: 13px;
+		}
+		.schedule {
+			font-weight: $fw-regular;
+			text-transform: uppercase;
+			margin-right: auto;
+		}
+	}
+
+}
