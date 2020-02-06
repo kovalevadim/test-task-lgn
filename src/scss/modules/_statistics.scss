@@ -1,0 +1,32 @@
+.statistics {
+	border: 1px solid $secondary;
+
+	.basic-indicators {
+		padding: 1.5rem;
+	}
+
+	.indicator {
+		font-size: 0.875rem;
+
+		&.comment {
+			border-top: none;
+			border-bottom: none;
+			border-left: none;
+			border-right: 1px solid $secondary;
+			border-radius: 0;
+			@media only screen and (max-width: 575px) {
+				border-right: none;
+				border-bottom: 1px solid $secondary;
+			}
+		}
+		&-name {
+			font-weight: 600;
+		}
+	}
+
+	.comment {
+		height: 100%;
+		background-color: $bg-secondary;
+	}
+
+}

@@ -11,3 +11,12 @@
 	font-weight: normal;
 	font-style: normal;
 }
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('/public/fonts/ProximaNova-Regular.eot');
+	src: url('/public/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+	url('/public/fonts/ProximaNova-Regular.woff') format('woff'),
+	url('/public/fonts/ProximaNova-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

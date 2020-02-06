@@ -1,16 +1,30 @@
 .banner-content {
 	display: flex;
 	margin-right: auto;
+	@media only screen and (max-width: 767px) {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	.banner-logo {
+		@media only screen and (max-width: 575px) {
+			width: 5rem;
+		}
+		img {
+			width: 100%;
+		}
+	}
 
 	.app-info {
 		display: flex;
 		flex-direction: column;
 		padding-left: 0.75rem;
-		font-family: 'Myriad Pro';
+		// font-family: 'Open Sans', sans-serif;
 		.title {
 			margin-bottom: 0;
 			font-size: 1.5rem;
 			font-weight: $fw-regular;
+			font-family: 'Proxima Nova';
 		}
 		.subtitle, .period {
 			font-size: 13px;

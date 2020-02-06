@@ -1,3 +1,18 @@
 .app-body {
 	padding: 2.25rem 0;
+
+	.add-new-module {
+		padding-top: 1.875rem;
+		padding-bottom: 1.875rem;
+		border-style: dashed;
+		border-width: 2px;
+		svg {
+			width: 2.125rem;
+			margin-right: 0.5rem;
+		}
+		@media only screen and (max-width: 575px) {
+			padding-top: 1.5rem;
+			padding-bottom: 1.5rem;
+		}
+	}
 }
