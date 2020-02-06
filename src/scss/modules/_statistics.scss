@@ -18,7 +18,11 @@
 				border-right: none;
 				border-bottom: 1px solid $secondary;
 			}
+			.indicator-name {
+				padding-top: 1rem;
+			}
 		}
+
 		&-name {
 			font-weight: 600;
 		}
